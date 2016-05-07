@@ -1,0 +1,93 @@
+*, 
+*:before,
+ *:after {  
+ margin: 0;     
+padding: 0;  
+-moz-box-sizing: border-box;  
+-webkit-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Montserrat);
+
+
+header{
+	background-color: #ffed74;
+	text-align: center;
+	background-size: cover;
+	height: 600px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+nav{
+	background-color: #e8c66a;
+}
+
+article{
+	background-color: #e89c6c;
+}
+
+section{
+	background-color: #FFC675;
+}
+
+footer{
+	background-color: #ff957e;
+}
+
+
+h1{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 40% center;
+	font-size: 24px;
+	letter-spacing: 4pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 4pt;
+}
+
+p{
+	font-family: 'georgia', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+.mainnavlinks{
+	display: inline-block;
+    outline: 1px solid white;
+    padding: 1em;
+    margin: 4em;
+	font-family: 'georgia', serif;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.section_paragraph{
+	background-color: violet;
+	border: 1px black solid;	
+	padding: 20px;
+	width:30%;
+	float:right;
+}
+
+.clearfix:after{
+   visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
